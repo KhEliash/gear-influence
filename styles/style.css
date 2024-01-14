@@ -190,3 +190,56 @@ footer {
   display: flex;
   gap: 16px;
 }
+
+/* Responsive Style */
+
+/* Mobile Style */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px 16px;
+  }
+  .navigation {
+    flex-direction: column;
+  }
+  .banner-section {
+    flex-direction: column-reverse;
+  }
+  .banner-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .company {
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .collection {
+    text-align: center;
+  }
+  .collection-container {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .collection-items {
+    width: 90%;
+    height: auto;
+  }
+  .collection-items > img {
+    width: 100%;
+  }
+  .collection-container > p {
+    right: -250px;
+  }
+  .feature-section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  footer {
+    margin-top: 50px;
+  }
+  .feature-section > div > img {
+    width: 100%;
+  }
+}
