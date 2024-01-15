@@ -230,7 +230,7 @@ footer {
     width: 100%;
   }
   .collection-container > p {
-    right: -250px;
+    right: -150px;
   }
   .feature-section {
     flex-direction: column-reverse;
